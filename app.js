@@ -2,6 +2,7 @@ let express = require('express');
 let ejs = require('ejs');
 let mongoose = require('mongoose');
 let encrypt = require('mongoose-encryption');
+require('dotenv').config();
 
 let User = require('./models/User');
 
